@@ -16,7 +16,7 @@
         <p>
             I like this restaurant since it has wide rage of options----<b>Mexican,Indian, Italian, Chinese</b> and what not. 
             And soft drinks too. I can decide any recipie after going to this restuarant. My all time favourite is chicken soup and noodles. I love the cozy atmosphere and the diverse menu.
-            The <strong>friendly staff</strong> and <strong>delicious dishes</strong> always make my dining experience enjoyable.
+            The <b>friendly staff</b> and <b>delicious dishes</b> always make my dining experience enjoyable.
         </p>
     </section>
    
@@ -99,6 +99,17 @@
         
     </section>
 
+    <hr>
+    <h2>Python Code to write JSON data to file</h2>
+    <p>
+        The code utilizes the json module to define a Python function, write_json_to_file, which takes JSON data and a file path as parameters. Inside the function, it opens the specified file in write mode, then uses json.dump to serialize and write the data to the file with optional indentation. Note: There's a correction in the file parameter from filename to filepath for accurate execution</p>
+    <pre>
+        import json
+        def write_json_to_file(data, filepath):
+	    with open(filename, "w") as f:
+		json.dump(data, f, indent=4) 
+    </pre>
+    <p><a href="https://code.pieces.app/collections/python">Click here for code snippet source!!!</a></p>
 
 </body>
 
